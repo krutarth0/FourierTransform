@@ -34,7 +34,7 @@ function mouseReleased() {
 }
 
 function setup() {
-  createCanvas(800, 600);
+  createCanvas(1000, 720);
 }
 
 function epiCycles(x, y, rotation, fourier) {
