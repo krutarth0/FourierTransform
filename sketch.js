@@ -34,7 +34,7 @@ function touchEnded() {
 }
 
 function setup() {
-  let cnv = createCanvas(windowWidth - 100, windowHeight - 200);
+  let cnv = createCanvas(windowWidth - 50, windowHeight - 200);
   cnv.parent("myContainer");
 }
 
