@@ -1,3 +1,13 @@
-body{
+body {
+  margin: 0;
+  padding: 0;
   overflow: hidden;
+  position: relative;
+}
+
+.myContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 20%);
 }
