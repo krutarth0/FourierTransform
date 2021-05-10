@@ -10,7 +10,7 @@ let path = [];
 let drawing = [];
 let state = -1;
 
-function mousePressed() {
+function touchStarted() {
   state = USER;
   drawing = [];
   x = [];
@@ -19,7 +19,7 @@ function mousePressed() {
   path = [];
 }
 
-function mouseReleased() {
+function touchEnded() {
   state = FOURIER;
   const skip = 1;
   for (let i = 0; i < drawing.length; i += skip) {
