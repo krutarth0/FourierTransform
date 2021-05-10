@@ -78,6 +78,7 @@ function draw() {
     line(vy.x, vy.y, v.x, v.y);
 
     beginShape();
+    stroke(255);
     noFill();
     for (let i = 0; i < path.length; i++) {
       vertex(path[i].x, path[i].y);
