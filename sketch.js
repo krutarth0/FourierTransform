@@ -34,7 +34,7 @@ function touchEnded() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth-100, windowHeight-200);
 }
 
 function epiCycles(x, y, rotation, fourier) {
