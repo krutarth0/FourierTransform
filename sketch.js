@@ -93,7 +93,7 @@ function draw() {
     }
   }
 
-  if (wave.length > 250) {
-    wave.pop();
-  }
+//   if (wave.length > 250) {
+//     wave.pop();
+//   }
 }
