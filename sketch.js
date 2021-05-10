@@ -48,17 +48,17 @@ function epiCycles(x, y, rotation, fourier) {
     x += radius * cos(freq * time + phase + rotation);
     y += radius * sin(freq * time + phase + rotation);
 
-    stroke(0, 100);
+    stroke(0, 50);
     noFill();
     ellipse(prevx, prevy, radius * 2);
-    stroke(0);
+    stroke(0, 200);
     line(prevx, prevy, x, y);
   }
   return createVector(x, y);
 }
 
 function draw() {
-  background(120);
+  background("#3edbf0");
 
   if (state == USER) {
     let point = createVector(mouseX - width / 2, mouseY - height / 2);
@@ -79,7 +79,7 @@ function draw() {
     line(vy.x, vy.y, v.x, v.y);
 
     beginShape();
-    stroke(255);
+    stroke("#04009a");
     noFill();
     for (let i = 0; i < path.length; i++) {
       vertex(path[i].x, path[i].y);
@@ -95,7 +95,7 @@ function draw() {
     }
   }
 
-//   if (wave.length > 250) {
-//     wave.pop();
-//   }
+  //   if (wave.length > 250) {
+  //     wave.pop();
+  //   }
 }
