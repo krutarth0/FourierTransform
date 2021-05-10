@@ -34,7 +34,8 @@ function touchEnded() {
 }
 
 function setup() {
-  createCanvas(windowWidth - 100, windowHeight - 200);
+  let cnv = createCanvas(windowWidth - 100, windowHeight - 200);
+  cnv.parent("myContainer");
 }
 
 function epiCycles(x, y, rotation, fourier) {
