@@ -3,11 +3,19 @@ body {
   padding: 0;
   overflow: hidden;
   position: relative;
+  background-color: #c0fefc;
 }
 
+.title {
+  text-align: center;
+  font-family: "Pacifico", cursive;
+  color: #04009a;
+}
 .myContainer {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, 20%);
+  overflow: hidden;
+  border-radius: 10px;
 }
